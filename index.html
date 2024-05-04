@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+
+<body>
+
+    <div class="calculator-container" id="calculator-container">
+
+        <h1 id="main-title">BMI - Calculator</h1>
+        <p id="introduction">Quickly assess your Body Mass Index (BMI) for a snapshot of your health. While BMI offers
+            valuable insights
+            for most, weight trainers should note its limitations due to potentially higher muscle mass</p>
+        <div id="container">
+            <form id="data-counter">
+                <fieldset id="weight">
+                    <legend>Weight</legend>
+                    <div class="input-container">
+                        <input type="number" min=0 id="weight-input" placeholder="kg"></input>
+                    </div>
+                </fieldset>
+                <fieldset id="height">
+                    <legend>Height</legend>
+                    <div class="input-container">
+                        <input type="number" min=0 id="height-input" placeholder="cm"></input>
+                    </div>
+                </fieldset>
+                <div id="button-container">
+                    <button type="button" id="calculate-btn">Calculate</button>
+                    <button type="button" id="clear-btn">Clear</button>
+                </div>
+            </form>
+            <div class="output" class="hide"></div>
+        </div>
+    </div>
+
+    <div id="output-container" class="hide">
+        
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

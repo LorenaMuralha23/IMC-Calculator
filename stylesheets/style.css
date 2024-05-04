@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #040931;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  gap: 20px;
+}
+
+.calculator-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 700px;
+  min-height: 500px;
+  text-align: center;
+  border: 5px solid #000000;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+#main-title {
+  margin: 0px;
+  padding: 0px 0px 30px 0px;
+}
+
+#introduction {
+  margin: 0px;
+  padding: 0px 0px 30px 0px;
+  width: 600px;
+}
+
+#weight {
+  margin-bottom: 10px;
+}
+
+#height {
+  margin-bottom: 30px;
+}
+
+#weight-input {
+  width: 200px;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Adiciona um espaço entre os botões */
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #161e97;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+#output-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 700px;
+  min-height: 500px;
+  text-align: center;
+  border: 5px solid #000000;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#result-text {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+#result-text span {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#output-container img {
+  border: 5px solid #000000;
+ 
+}
